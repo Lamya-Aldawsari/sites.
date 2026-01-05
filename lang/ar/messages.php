@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'welcome' => 'مرحباً بك في iBoat',
+    'book_boat' => 'احجز قارب',
+    'on_demand' => 'رحلة فورية',
+    'shop_equipment' => 'تسوق المعدات',
+    'login' => 'تسجيل الدخول',
+    'register' => 'إنشاء حساب',
+    'boats' => 'القوارب',
+    'equipment' => 'المعدات',
+    'cart' => 'السلة',
+    'dashboard' => 'لوحة التحكم',
+    'available_boats' => 'القوارب المتاحة',
+    'marine_equipment' => 'معدات بحرية',
+    'shopping_cart' => 'سلة التسوق',
+    'checkout' => 'الدفع',
+    'on_demand_booking' => 'حجز قارب فوري',
+    'trip_duration' => 'مدة الرحلة (بالدقائق)',
+    'book_now' => 'احجز الآن',
+    'add_to_cart' => 'أضف إلى السلة',
+    'proceed_to_checkout' => 'المتابعة إلى الدفع',
+    'sos' => 'طلب المساعدة',
+    'sos_alert' => 'تنبيه طوارئ',
+    'sos_message' => 'اضغط على زر طلب المساعدة في حالة الطوارئ',
+    'send_sos' => 'إرسال تنبيه طوارئ',
+    'verification' => 'التحقق',
+    'upload_documents' => 'رفع المستندات',
+    'marine_license' => 'رخصة بحرية',
+    'boat_insurance' => 'تأمين القارب',
+    'commercial_registration' => 'السجل التجاري',
+];
+

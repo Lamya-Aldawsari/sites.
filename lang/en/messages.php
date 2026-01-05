@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'welcome' => 'Welcome to iBoat',
+    'book_boat' => 'Book a Boat',
+    'on_demand' => 'On-Demand Ride',
+    'shop_equipment' => 'Shop Equipment',
+    'login' => 'Login',
+    'register' => 'Sign Up',
+    'boats' => 'Boats',
+    'equipment' => 'Equipment',
+    'cart' => 'Cart',
+    'dashboard' => 'Dashboard',
+    'available_boats' => 'Available Boats',
+    'marine_equipment' => 'Marine Equipment',
+    'shopping_cart' => 'Shopping Cart',
+    'checkout' => 'Checkout',
+    'on_demand_booking' => 'On-Demand Boat Booking',
+    'trip_duration' => 'Trip Duration (minutes)',
+    'book_now' => 'Book Now',
+    'add_to_cart' => 'Add to Cart',
+    'proceed_to_checkout' => 'Proceed to Checkout',
+    'sos' => 'SOS',
+    'sos_alert' => 'Emergency Alert',
+    'sos_message' => 'Press SOS button in case of emergency',
+    'send_sos' => 'Send SOS Alert',
+    'verification' => 'Verification',
+    'upload_documents' => 'Upload Documents',
+    'marine_license' => 'Marine License',
+    'boat_insurance' => 'Boat Insurance',
+    'commercial_registration' => 'Commercial Registration',
+];
+
