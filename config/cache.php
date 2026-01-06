@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'default' => env('CACHE_DRIVER', 'file'),
+    'default' => 'file',
     'stores' => [
         'apc' => [
             'driver' => 'apc',
@@ -40,11 +40,12 @@ return [
                 ],
             ],
         ],
-        'redis' => [
-            'driver' => 'redis',
-            'connection' => 'cache',
-            'lock_connection' => 'default',
-        ],
+        // Redis store disabled - using file-based cache
+        // 'redis' => [
+        //     'driver' => 'redis',
+        //     'connection' => 'cache',
+        //     'lock_connection' => 'default',
+        // ],
         'dynamodb' => [
             'driver' => 'dynamodb',
             'key' => env('AWS_ACCESS_KEY_ID'),
