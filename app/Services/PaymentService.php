@@ -14,22 +14,6 @@ class PaymentService
         $this->stripe = new StripeClient(config('services.stripe.secret'));
     }
 
-    public function createPaymentIntent(float $amount, array $metadata = []): \Stripe\PaymentIntent
-    {
-        try {
-            return $this->stripe->paymentIntents->create([
-                'amount' => (int)($amount * 100), // Convert to cents
-                'currency' => 'usd',
-                'metadata' => $metadata,
-                'automatic_payment_methods' => [
-                    'enabled' => true,
-                ],
-            ]);
-        } catch (ApiErrorException $e) {
-            throw new \Exception('Payment intent creation failed: ' . $e->getMessage());
-        }
-    }
-
     public function confirmPayment(string $paymentIntentId): array
     {
         try {

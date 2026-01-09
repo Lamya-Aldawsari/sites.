@@ -59,8 +59,13 @@ function App() {
     );
 }
 
-ReactDOM.createRoot(document.getElementById('app')).render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
-);
+const rootElement = document.getElementById('app');
+if (rootElement) {
+    ReactDOM.createRoot(rootElement).render(
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>
+    );
+} else {
+    console.error('Root element with id "app" not found');
+}
